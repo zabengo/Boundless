@@ -1,11 +1,7 @@
 extends Node
-
-
-# Called when the node enters the scene tree for the first time.
-func _ready() -> void:
-	pass # Replace with function body.
-
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta: float) -> void:
-	pass
+# signals
+signal combat_started
+signal combat_ended
+signal turn_started(character:Node3D)
+signal turn_ended(character:Node3D)
+signal units_changed(units:bool)
