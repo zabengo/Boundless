@@ -1,0 +1,7 @@
+[gd_resource type="Resource" script_class="AttunementSource" format=3 uid="uid://6f65x7umeq70"]
+
+[ext_resource type="Script" uid="uid://cl1ge01dgw7w2" path="res://systems/stats/attunement_source.gd" id="1_vw5f4"]
+
+[resource]
+script = ExtResource("1_vw5f4")
+metadata/_custom_type_script = "uid://cl1ge01dgw7w2"

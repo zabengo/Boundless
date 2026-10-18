@@ -6,3 +6,4 @@ class_name CharacterData
 @export var model_scene: PackedScene
 @export var health_stat: int
 @export var speed_stat: int
+@export var attunement_source: AttunementSource

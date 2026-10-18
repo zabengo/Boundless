@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="AttunementSource" format=3 uid="uid://beq1j0fggh32u"]
+
+[ext_resource type="Script" uid="uid://cl1ge01dgw7w2" path="res://systems/stats/attunement_source.gd" id="1_l6r2l"]
+
+[resource]
+script = ExtResource("1_l6r2l")
+id = 3
+display_name = "Trespasser"
+metadata/_custom_type_script = "uid://cl1ge01dgw7w2"

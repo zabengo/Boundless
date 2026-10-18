@@ -1,0 +1,8 @@
+[gd_resource type="Resource" script_class="AttunementSource" format=3 uid="uid://d0rsfoamd8ixr"]
+
+[ext_resource type="Script" uid="uid://cl1ge01dgw7w2" path="res://systems/stats/attunement_source.gd" id="1_o1vqh"]
+
+[resource]
+script = ExtResource("1_o1vqh")
+display_name = "Balatian Ancestry"
+metadata/_custom_type_script = "uid://cl1ge01dgw7w2"

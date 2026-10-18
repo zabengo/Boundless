@@ -1,0 +1,8 @@
+[gd_resource type="Resource" script_class="CreatureType" format=3 uid="uid://buayaf0nt1xrf"]
+
+[ext_resource type="Script" uid="uid://ssmtywieybxp" path="res://systems/stats/creature_type.gd" id="1_3g8c6"]
+
+[resource]
+script = ExtResource("1_3g8c6")
+display_name = "humanoid"
+metadata/_custom_type_script = "uid://ssmtywieybxp"
