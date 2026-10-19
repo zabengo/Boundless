@@ -1,3 +1,5 @@
-extends Resource
-class_name TargetSelf
-var target:Node3D
+extends SpellTarget
+class_name SpellTargetSelf
+
+func describe() -> String:
+	return "target self"

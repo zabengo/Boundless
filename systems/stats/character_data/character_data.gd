@@ -4,6 +4,5 @@ class_name CharacterData
 @export var display_name: String
 @export var portrait: Texture2D
 @export var model_scene: PackedScene
-@export var health_stat: int
-@export var speed_stat: int
-@export var attunement_source: AttunementSource
+@export var stat_block:StatBlock
+@export var attunements: Array[AttunementSource]

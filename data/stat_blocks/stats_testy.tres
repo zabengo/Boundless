@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="StatBlock" format=3 uid="uid://giv3vj5lp5oj"]
+
+[ext_resource type="Resource" uid="uid://buayaf0nt1xrf" path="res://data/creatures/humanoid.tres" id="1_yfgvp"]
+[ext_resource type="Script" uid="uid://dvf3502k10ait" path="res://systems/stats/stat_block.gd" id="1_yrgd5"]
+
+[resource]
+script = ExtResource("1_yrgd5")
+creature_type = ExtResource("1_yfgvp")
+health_stat = 9
+speed_stat = 5
+action_points = 1
+actions_per_turn = 1
+physical_stat = 2
+mental_stat = 3
+metadata/_custom_type_script = "uid://dvf3502k10ait"

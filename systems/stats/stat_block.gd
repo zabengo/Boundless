@@ -8,13 +8,16 @@ class_name StatBlock
 @export var actions_per_turn: int
 @export var physical_stat: int
 @export var mental_stat: int
+@export var boundless_affinity: int
 # MAX HEALTH ALGORITHM
 var max_health:int: 
 	get:
 		return health_stat * 10 #TEMPORARY max health algorithm
 # MOVEMENT ALGORITHM
-var movement:int:
+var movement:float:
 	get:
+		if creature_type == null:
+			return 0.0
 		return creature_type.base_movement
 # MAX PHYSICAL STRAIN
 var max_physical_strain:int:

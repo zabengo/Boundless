@@ -1,7 +1,13 @@
 [gd_resource type="Resource" script_class="CharacterData" format=3 uid="uid://clr6hp2e747eh"]
 
+[ext_resource type="Resource" uid="uid://biailfq4oat0e" path="res://data/attunements/caster_runic_sword.tres" id="1_b11x0"]
 [ext_resource type="Script" uid="uid://cy6t3vep2ty7" path="res://systems/stats/character_data/character_data.gd" id="1_g711j"]
+[ext_resource type="Resource" uid="uid://giv3vj5lp5oj" path="res://data/stat_blocks/stats_testy.tres" id="3_b11x0"]
+[ext_resource type="Script" uid="uid://cl1ge01dgw7w2" path="res://systems/stats/attunement_source.gd" id="4_attsrc"]
 
 [resource]
 script = ExtResource("1_g711j")
+display_name = "Testy the Tester"
+stat_block = ExtResource("3_b11x0")
+attunements = Array[ExtResource("4_attsrc")]([ExtResource("1_b11x0")])
 metadata/_custom_type_script = "uid://cy6t3vep2ty7"

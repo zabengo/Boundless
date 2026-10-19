@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="Spell" format=3 uid="uid://pp100tu6p3v2"]
+
+[ext_resource type="Script" uid="uid://ln661s1dkrpc" path="res://systems/spells/spell_effects/spell_effect.gd" id="1_i6xaw"]
+[ext_resource type="Script" uid="uid://ldq08x3gnvg0" path="res://systems/spells/spell.gd" id="2_cmifx"]
+[ext_resource type="Script" uid="uid://kmb0rt1mw7jk" path="res://systems/spells/spell_targets/spell_target_self.gd" id="4_s0ba1"]
+[ext_resource type="Script" uid="uid://b148626sf5joa" path="res://systems/spells/spell_triggers/self_cast_trigger.gd" id="4_tkddm"]
+[ext_resource type="Resource" uid="uid://clxeswllfptv2" path="res://data/spells/spell_effect_data/minor_damage_effect.tres" id="5_dmg"]
+[ext_resource type="Resource" uid="uid://blcas38syinud" path="res://data/spells/spell_effect_data/minor_heal_effect.tres" id="6_heal"]
+
+[sub_resource type="Resource" id="Resource_kpeeb"]
+script = ExtResource("4_s0ba1")
+affects = 1
+metadata/_custom_type_script = "uid://kmb0rt1mw7jk"
+
+[sub_resource type="Resource" id="Resource_1h5xv"]
+script = ExtResource("4_tkddm")
+metadata/_custom_type_script = "uid://b148626sf5joa"
+
+[resource]
+script = ExtResource("2_cmifx")
+display_name = "Test Spell"
+subskill = 2
+trigger = SubResource("Resource_1h5xv")
+target = SubResource("Resource_kpeeb")
+effects = Array[ExtResource("1_i6xaw")]([ExtResource("5_dmg"), ExtResource("6_heal")])
+metadata/_custom_type_script = "uid://ldq08x3gnvg0"

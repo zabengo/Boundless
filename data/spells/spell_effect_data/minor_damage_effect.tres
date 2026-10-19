@@ -1,0 +1,8 @@
+[gd_resource type="Resource" script_class="DamageEffect" format=3 uid="uid://clxeswllfptv2"]
+
+[ext_resource type="Script" uid="uid://dmpoj38jhm60g" path="res://systems/spells/spell_effects/damage_effect.gd" id="1_s6lvw"]
+
+[resource]
+script = ExtResource("1_s6lvw")
+amount = 5
+metadata/_custom_type_script = "uid://dmpoj38jhm60g"
